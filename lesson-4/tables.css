@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+table{
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+    border-style: dotted;
+    
+}
+th, td{
+    padding: 10px;
+
+
+}
