@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    
+    color: darkblue;
+}
+.benjamin{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#About{
+    background-color: grey;
+    
+    text-align: center;
+
+
+}
+#skills{
+    background-color: lightyellow;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+h3{
+    color: green;
+    font-size: 20px;
+    
+
+}
+h4{
+    color: blueviolet;
+    text-decoration: dotted;
+    background-color: bisque;
+}
+h5{
+    color: darkolivegreen;
+    text-decoration: wavy;
+}
+.Fproject{
+    background-color: indianred;
+    margin: 20;
+    padding: 20;
+    text-align: center;
+    
+}
+.Sproject{
+    background-color: cornflowerblue;
+    margin: 44;
+    padding: 44;
+    text-align: center;
+}
+#Tproject{
+    background-color: lightseagreen;
+    margin: 22;
+    padding: 22;
+    text-align: center;
+}
+li{
+    list-style: none;
+    text-decoration-color: darkred;
+}
+li::before{
+    content: " ★ ";
+}
