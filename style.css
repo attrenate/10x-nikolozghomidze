@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    height: 160px;
+    background-color: indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-sub-menu{
+    display: none;
+}
+img.logo-img{
+    width: 150px;
+}
+div.header-cta-wrapper img{
+    width: 50px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    margin: 0 10px;
+}
+img.catto{
+    width: 150px;
+    
+    margin: 150 200px;
+    border-color: brown;
+    border-style: dashed;
+}
+img.benjamin{
+    width: 150px;
+}
+img.doggo{
+    width: 150px;
+    margin: 0 100px;
+}
+h4{
+    margin: 0 700px;
+}
+img.sausage-dog{
+    width: 505px;
+    border-style: solid;
+    border-color: crimson;
+}
+figure{
+    margin: 0 500px;
+}
+
+   
+    
