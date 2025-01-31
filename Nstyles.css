@@ -1,0 +1,101 @@
+/* General body and header styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f7; /* Set a light background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space out logo and navigation items */
+    align-items: center;
+    padding: 20px 5%;
+    background-color: white; /* White background for header */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Push the logo more to the side (e.g., further from the left) */
+.N-logo {
+    margin-right: 100px; /* Added margin to push the logo more to the side */
+}
+
+.N-logo span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333; /* Dark gray for text */
+}
+
+/* Navigation styling */
+.N-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; /* Adds a little space between the nav and buttons */
+}
+
+.N-nav ul {
+    display: flex;
+    gap: 30px; /* Space out navigation items */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.N-nav li {
+    font-size: 1.1rem;
+}
+
+.N-nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray color for text */
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Add smooth transition for hover */
+}
+
+.N-nav a:hover {
+    color: white; /* Text color changes to white on hover */
+    background-color: #0061f2; /* Blue background color on hover */
+    border-radius: 5px;
+}
+
+/* Auth buttons styling */
+.N-auth-buttons {
+    display: flex;
+    gap: 20px; /* Space between the buttons */
+}
+
+.N-auth-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #0061f2; /* Blue border */
+    color: #0061f2; /* Blue text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.N-auth-buttons button:hover {
+    background-color: #0061f2; /* Blue background when hovering */
+    color: white; /* White text when hovering */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .N-nav ul {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%; /* Full width for nav items */
+    }
+
+    .N-auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+}
