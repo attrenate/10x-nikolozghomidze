@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  header {
+    height: auto; 
+    background-color: indianred;
+    display: flex;
+    flex-direction: column; /
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  img.logo-img {
+    width: 120px; 
+  }
+  
+  div.header-cta-wrapper img {
+    width: 30px; 
+    margin: 5px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /
+    padding: 10px;
+    width: 100%;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .header-sub-menu {
+    display: none; 
+  }
+  
+  /* Main Section */
+  main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%; /
+    margin: 10px 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  footer address {
+    margin-top: 10px;
+  }
+  
+  footer button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /* For Mobile Devices (phones) */
+  @media (max-width: 767px) {
+    header {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    ul {
+      flex-direction: column; 
+      padding: 0;
+    }
+  
+    .header-cta-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    img.catto, img.benjamin, img.doggo {
+      width: 100%; 
+      margin: 10px 0;
+    }
+  
+    .sausage-dog {
+      width: 90%;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  
+    footer address {
+      margin-top: 10px;
+    }
+  }
+  
+  /* For Tablet Devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      display: block; 
+    }
+  
+    img.logo-img {
+      width: 150px;
+    }
+  
+    .header-cta-wrapper img {
+      width: 40px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .sausage-dog {
+      width: 80%;
+    }
+  }
+  
+/* For Desktop and Larger Devices */
+@media (min-width: 1024px) {
+    header {
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+  
+    img.logo-img {
+      width: 200px;
+    }
+  
+    .header-cta-wrapper {
+      margin-top: 0;
+    }
+  
+    
+    img.catto, img.benjamin {
+      width: 40%; 
+      margin: 10px auto; 
+    }
+  
+    .sausage-dog {
+      width: 60%;
+    }
+  
+    footer {
+      padding: 20px;
+    }
+  }
+  
+  
+  
+  
+  
+  
