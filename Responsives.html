@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Mobile-first styles */
+    main {
+      display: block;
+    }
+
+    /* Tablet (600px and up) */
+    @media (min-width: 600px) {
+      main {
+        display: flex;
+        justify-content: space-between;
+      }
+      .section {
+        width: 48%;
+      }
+    }
+
+    /* Desktop (1024px and up) */
+    @media (min-width: 1024px) {
+      main {
+        display: flex;
+        justify-content: space-between;
+      }
+      .section {
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Design Example</h1>
+  </header>
+  <main>
+    <div class="section">Content 1</div>
+    <div class="section">Content 2</div>
+    <div class="section">Content 3</div>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
