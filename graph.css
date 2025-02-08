@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.graph-container {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.line {
+    position: absolute;
+    width: 2px; 
+    background-color: black;
+}
+
+.up {
+    height: 50px;
+    left: 20px;
+    animation: moveUp 2s infinite alternate;
+}
+
+.down {
+    height: 70px;
+    left: 40px;
+    animation: moveDown 2s infinite alternate;
+}
+
+@keyframes moveUp {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 50px;
+    }
+}
+
+@keyframes moveDown {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: -70px;
+    }
+}
